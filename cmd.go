@@ -26,7 +26,7 @@ func NewCmd() *Commands {
 
 	cmd.App.Flags = []cli.Flag{
 		&cli.StringFlag{
-			Name:    "c,config",
+			Name:    "config",
 			Value:   "config/config.yaml",
 			Usage:   "server config path",
 			EnvVars: cmd.name("CONFIG"),
