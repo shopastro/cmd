@@ -1,4 +1,4 @@
-module github.com/shopastro/cmd
+module github.com/yousinn/cmd
 
 go 1.18
 
